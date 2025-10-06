@@ -1,9 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {2,1,0,-10};
+        int[] array = {5,4,3,2,1};
 
-        int[] sorted = SelectionSort.Sort(array);
+        int[] sorted = InsertionSort.Sort(array);
         Helper.PrintArray(sorted);
     }
 }
